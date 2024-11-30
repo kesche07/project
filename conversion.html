@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Currency converter
+        </title>
+        <script src="cdf.js"></script>
+        <link rel="stylesheet" type="text/css" href="abc.css">
+    </head>
+    <body>
+        <center><h1> Currency Converter</h1></center>
+            <center><div class="main">
+                <div class="title"><h2> Enter Amount</h2></div><br>
+                <input type="text" placeholder="Amount to be converted" id="amt"><br> 
+                <br><div class="from">
+                    From:
+                <select id="sel1">
+                    <option value="nrs">Nepali Rupees</option>
+                    <option value="irs">Indian Rupees</option>
+                    <option value="usd">US dollars</option>
+                    <option value="Euro">Euros</option>
+                    <option value="Gbd">Pound Sterling</option>
+                    <option value="yen">Japanese Yen</option>
+                    <option value="baht">Thai Baht</option>
+                    <option value="krw">Korean Won</option>
+                    <option value="cy">Chinese yuan</option>
+                    <option value="peso">Filipino peso</option>
+                </select>
+                </div>
+                <div class="to">
+                    To:
+                    <select id="sel2">
+                        <option value="nrs">Nepali Rupees</option>
+                        <option value="irs">Indian Rupees</option>
+                        <option value="usd">US dollars</option>
+                        <option value="Euro">Euros</option>
+                        <option value="Gbd">Pound Sterling</option>
+                        <option value="yen">Japanese Yen</option>
+                        <option value="baht">Thai Baht</option>
+                        <option value="krw">Korean Won</option>
+                        <option value="cy">Chinese yuan</option>
+                        <option value="peso">Filipino peso</option>
+                    </select>
+                </div><br><br><br><br>
+               <input type="button" value="Convert" onclick="display()"> 
+            <p id="ans"> Answer will be here:</p></center>
+        </div>
+    </body>
+</html>
